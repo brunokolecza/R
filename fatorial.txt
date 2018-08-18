@@ -1,0 +1,16 @@
+Função para calcular o fatorial de um número no R:
+
+fatorial = function(x) {
+  if ((x - 1) > 0){
+    y = x * (x-1)
+    while ((x-1) > 0){
+      x = x -1
+      if((x-1)>0){
+      y = y * (x-1)  
+      } else{
+        y = y
+      }}
+    return(y)
+  } else {
+    print(x) }
+}
